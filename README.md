@@ -3,12 +3,12 @@ Target of this project is init of Linux Arduino project without Arduino IDE and 
 
 ## Preparations
 Install avr toolchain and avrdude
-	sudo aptitude install avr-gcc gdb-avr avr-libc avrdude
+    sudo aptitude install avr-gcc gdb-avr avr-libc avrdude
 
 ## Usage
 Connect your Arduino to PC and try to build project
-	make
-	make flash
+    make
+    make flash
 Now you should see LED blinking.
 
 ## Reuse
