@@ -19,6 +19,6 @@ If you want to reuse this project (respectively its Makefile), just rewrite foll
     
     # PROJECT DEFINES
     BINARY = MyAwesomeProject
-    SOURCE = main.c blinking.c timer.c`
+    SOURCE = main.c blinking.c timer.c
     OBJS = main.o blinking.o timer.o
     HEADERS = blinking.h timer.h
