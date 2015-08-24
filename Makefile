@@ -40,7 +40,7 @@ SOURCE = main.c
 OBJS = main.o
 HEADERS = 
 
-all: $(BINARY).elf flash
+all: $(BINARY).elf
 
 $(OBJS): $(SOURCE)
 
